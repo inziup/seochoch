@@ -5,13 +5,13 @@ body{
 
 
 body.main-body{
-    background-image: none !important; /* 백그라운드 이미지 제거거*/
+    background-image: none !important;
     background-color: rgb(48, 33, 117);
     color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* 화면 높이를 기준으로 중앙 배치 */
+    height: 100vh;
     margin: 0;
 
 }
@@ -24,13 +24,12 @@ body.main-body{
 }
 
 .story-text-box {
-    /* border: 2px solid #4CAF50;  테두리 두께, 스타일 */
-    background-color: #fff; /* 백그라운드 */
-    padding: 5%; /* 내용과 테두리 사이 여백 */
-    margin: 5% 5%; /* 가로,요소 밖 여백 */
-    border-radius: 10px; /* 테두리 둥글게 */
+    background-color: #fff;
+    padding: 5%;
+    margin: 5% 5%;
+    border-radius: 10px;
     font-size: 18px; 
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* 그림자 */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
   }
 
 
@@ -68,12 +67,12 @@ h1{
 
 h3{
     color: yellowgreen;
-    padding: 3%; /* 내용과 테두리 사이 여백 */
+    padding: 3%;
 }
 
 h4{
     color: rgb(0, 0, 0);
-    padding: 3%; /* 내용과 테두리 사이 여백 */
+    padding: 3%;
 }
 
 .center-line {
@@ -82,15 +81,11 @@ h4{
 }
 
 
-/* 오디오컨트롤러 */
 .audio-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 10vh;
-    /* width: 80vw;
-    max-width: 400px;
-    min-width: 200px; */
 }
 audio {
     width: 80vw;
@@ -99,7 +94,7 @@ audio {
 }
 
 
-/* 기본버튼 */
+
 .button{
     padding: 10px 20px;
     margin: 20px 5px;
@@ -109,7 +104,7 @@ audio {
     color: white;
     border: none;
     cursor: pointer;
-    border-radius: 10px; /* 테두리 둥글게 */
+    border-radius: 10px;
 }
 .button:hover {
     background-color: #45a049;
@@ -117,13 +112,13 @@ audio {
 
 
 
-/* 기본팝업업 */
+
 .popup {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #ffffff; /* 흰색 배경 */
+    background: #ffffff;
     padding: 20px 20px;
     border-radius: 10px;
     text-align: center;
@@ -134,7 +129,6 @@ audio {
 
 
 
-/* 반투명 레이어 */
 .overlay {
     display: none;
     position: fixed;
@@ -143,7 +137,6 @@ audio {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    /* z-index: -1; 팝업보다 낮은 z-index 설정 */
     }
 
 
@@ -151,33 +144,32 @@ audio {
 .gIpopup {
     width: 300px;
     height: 450px;
-    background-color: white; /* 팝업 배경 색상 */
-    color: #000000; /* 검은색 폰트 */
+    background-color: white;
+    color: #000000;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
-    flex-direction: column; /* 세로 배열 */
+    flex-direction: column;
     align-items: center;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(-720deg) scale(0); /* 초기 상태 (회전 + 축소) */
-    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out; /* 부드러운 전환 */
-    opacity: 0; /* 초기 상태: 투명 */
+    transform: translate(-50%, -50%) rotate(-720deg) scale(0);
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+    opacity: 0;
 }
 
-/* 팝업 활성화 상태 */
+
 .gIpopup.active {
-    transform: translate(-50%, -50%) rotate(0deg) scale(1); /* 회전 중단 및 크기 복원 */
-    opacity: 1; /* 불투명 */
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    opacity: 1;
 }
 
-/* 팝업후 획득이미지 간격 */
+
 #itemContainer {
-    margin-bottom: 30px; /* 원하는 간격으로 조정 */
+    margin-bottom: 30px;
 }
-
 
 
 [id^="page"] {
@@ -187,7 +179,6 @@ audio {
     text-align: center;
     border-radius: 20px;
 }
-
 
 
 [id^="MissionPopup"] {
@@ -208,13 +199,6 @@ audio {
 [id^="MissionPopup"] p {
     color: #000000;
 }
-/* [id^="MissionPopup"] button {
-    padding: 10px 20px;
-    margin-top: 10px;
-    background-color: #006eff;
-    border: none;
-    cursor: pointer;
-} */
 
 .input-section {
     margin-top: 20px;
@@ -245,8 +229,6 @@ button.active {
     background-color: yellow;
 }
   
-
-
 .container {
     text-align: center;
   }
@@ -260,7 +242,7 @@ button.active {
     height: 100px;
     margin: 20px auto;
     border: 1px solid #ccc;
-    font-size: 35px; /* 화살표 크기 */
+    font-size: 35px;
     line-height: 100px;
     background-color: white;
     text-align: center;
@@ -274,7 +256,7 @@ button.active {
   .arrow-btn {
     padding: 15px 25px;
     margin: 5px;
-    font-size: 20px; /* 버튼 크기 */
+    font-size: 20px;
     cursor: pointer;
     background-color: #3a5557;
     border: 1px solid #ccc;

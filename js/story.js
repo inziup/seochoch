@@ -42,7 +42,7 @@ const storyList = [
 
 
     // 05. 첫번째 학교폭력 (문제)
-    { id: 'pageStoryBody050', content: '<h3>첫 번째 학교폭력 유헝을 맞혀보자</h3>' },
+    { id: 'pageStoryBody050', content: '<h3>첫 번째 학교폭력 유형을 맞혀보자</h3>' },
     { id: 'pageStoryBody051', content: '<p>상대의 돈이나 금품 등의 물건을 강제로<br>빼앗으려 하는 행위는 무엇일까요?</p>' },
     { id: 'pageStoryBody052', content: '<p>케이의 노트를 잘 살펴보자.<br>무언가 적혀 있을지도 몰라!</p>' },
 

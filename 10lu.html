@@ -1,0 +1,38 @@
+<html lang="ko" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>학교폭력예방-방탈출게임</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <section id="page10" class="mx-auto my-1 py-1 px-1">
+            <div class="storyAudio10 audio-wrapper"></div>
+            <div id="itemContainer">
+                <button id="popBtn10" class="gIbutton" onclick="opengIPopup()">아이템획득</button>
+            </div>
+            <div class="pageStoryBody101"></div>
+            <button type="button" class="button" onclick="goToNextPage('11se.html')">다음미션</button>
+            <!-- onclick="goToNextPage('page11.html') -->
+            <div class="overlay"></div>
+                <div class="gIpopup">
+                    <div class="pageStoryBody102 col-lg-10 col-md-10 col-sm-10 col- mx-auto my-3 px-1"></div>
+                    <div class="pageStoryBody103"></div>
+                    <button type="button" class="gIbutton" onclick="hidePopup()">인지조각담기</button>
+                </div>
+        </section>
+        <script src="./js/story.js" charset="UTF-8"></script>
+        <script src="./js/script.js" charset="UTF-8"></script>
+            <script>
+                const targetContentClass = '.pageStoryBody102';
+            </script>
+    </div>
+</body>
+
+</html>

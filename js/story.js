@@ -56,7 +56,7 @@ const storyList = [
     // 07. 두번째 학교폭력 (문제)
     { id: 'pageStoryBody070', content: '<h3>두번째 학교폭력 유형을 맞혀보자.</h3>' },
     { id: 'pageStoryBody071', content: '<p>상대가 원치 않는 행위 또는 행동을 강제로 하게 하거나 자발적으로 하게끔 유도하는 행위는 무엇일까?<br></p>' },
-    { id: 'pageStoryBody072', content: '<p>사물함 위 숫자카드를 보고<br>암호표에 맞게 해독해보자.</p>}' },
+    { id: 'pageStoryBody072', content: '<p>사물함 위 숫자카드를 보고<br>암호표에 맞게 해독해보자.</p>' },
 
 
     // 08. 집에돌아온 후
@@ -78,7 +78,7 @@ const storyList = [
     { id: 'storyAudio10', content: '<audio src="./sound/audio10.mp3" autoplay controls></audio>' },
     { id: 'pageStoryBody101', content: '<p>“우와! ‘인지’ 조각을 획득했구나!<br>정말 축하해!<br><br>문제를 풀면서 알게 되었겠지만,<br>학교폭력은 실제로 여러 가지 다양한 형태로 나타나,<br><br>신체폭력, 언어폭력, 금품갈취, 강요, 따돌림, 성폭력, 사이버폭력<br>크게 7가지 유형으로 나누는데<br>한 가지 유형만 나타나기도 하지만,<br>여러 유형이 함께 나타나는 경우가 많아.<br><br>학교폭력이 다양한 형태로 나타난다는 것,<br>그리고 폭력의 유형들이 섞여서 일어난다는 걸 기억한다면,<br>분명 학교폭력 유형을 이해하는데 도움이 되겠지?”<br></p>' },
     { id: 'pageStoryBody102', content: '<img src="./img/img_101.png" alt="storyImage" class="img-fluid">' },
-    { id: 'pageStoryBody103', content: '<p>첫 번째 꿈의 조각인<br> ‘인지’조각을 획득했습니다!</p>' },
+    { id: 'pageStoryBody103', content: '<h4>첫 번째 꿈의 조각인<br>‘인지’ 조각을 획득했습니다!</h4>'},
 
 
     // 11. 그럴만한 이유
@@ -103,7 +103,7 @@ const storyList = [
     { id: 'pageStoryBody132', content: '<p>너의 마음을 들여다 보아주어서 고마워!<br>케이를 바로 돕지 못한 너의 마음 이해해.<br>괴롭힘의 또 다른 표적이 되고 싶지 않았거나,<br>어떻게 대처해야 할지 몰랐거나,<br>너 혼자서 상황을 해결할 수 없다고 생각했겠구나.<br><br>케이를 그저 바라볼 수 밖에 없었다고 해서<br>자신을 너무 탓하지 않았으면 좋겠어. <br>폭력이란 건 무서운 거니까…<br><br>빛나야!<br>너를 위해 준비한 규칙이 하나 있어!<br>우리 한 번 같이 읽고 마음에 새겨볼까? <br><br></p>' },
     { id: 'pageStoryBody133', content: '<img src="./img/img_132.png" alt="storyImage" class="img-fluid">' },
     { id: 'pageStoryBody134', content: '<img src="./img/img_133.png" alt="storyImage" class="img-fluid">' },
-    { id: 'pageStoryBody135', content: '<p>‘다짐’ 조각을 획득했습니다!</p>' },
+    { id: 'pageStoryBody135', content: '<h4>두 번째 꿈의 조각인<br>‘다짐’ 조각을 획득했습니다!</h4>'},
 
     // 14. 친구의 마음은 어땠을까?    
     { id: 'storyAudio14', content: '<audio src="./sound/audio11.mp3" autoplay controls></audio>' },
@@ -111,7 +111,7 @@ const storyList = [
     { id: 'pageStoryBody141', content: '<img src="./img/img_141.png" alt="storyImage" class="img-fluid">' },
     { id: 'pageStoryBody142', content: '<p>5계명을 읽고 나니<br>몸에 어떤 기운이 흐르는 것 같았다.<br>그건 아마도 케이와 비슷한 친구들을<br>지켜주고 싶은 마음에서 생긴 것일 거다.<br><br>케이가 학교를 졸업하고<br>앞으로 살아갈 시간 속에서 <br>어떤 두려움을 마주하게 될지 생각해보게 되었다.<br><br></p>' },
     { id: 'pageStoryBody143', content: '<img src="./img/img_142.png" alt="storyImage" class="img-fluid">' },
-    { id: 'pageStoryBody144', content: '<p>지민이나 민수, 수연이 같은 친구들과<br>멀어지게 되더라도<br>다른 또래를 만날 때<br>그날의 기억을 잊을 수 있을까?<br><br>만약 내가 케이였다면,<br>휴대폰을 보며 울고 싶을 때,<br>얼마나 도움이 필요했을까?<br><br>나는 목이 말라 물을 마시려<br>방에서 나가려고 하는데<br>문에 붙여두었던 포스터가<br>평소와 달라졌음을 알아챘다.<br></p>' },
+    { id: 'pageStoryBody144', content: '<p>지민이나 민수, 수연이 같은 친구들과<br>멀어지게 되더라도<br>다른 또래를 만날 때<br>그날의 기억을 잊을 수 있을까?<br><br>만약 내가 케이였다면,<br>휴대폰을 보며 울고 싶을 때,<br>얼마나 도움이 필요했을까?<br><br>나는 목이 말라 물을 마시려<br>방에서 나가려고 하는데<br>문에 붙여두었던 포스터가<br>평소와 달라졌음을 알아챘다.<br></p>'},
 
 
     // 15. 케이의 마음에 공감해보자.(화살표문제)
@@ -124,8 +124,8 @@ const storyList = [
     { id: 'storyAudio16', content: '<audio src="./sound/audio11.mp3" autoplay controls></audio>' },
     { id: 'pageStoryBody161', content: '<img src="./img/img_161.png" alt="storyImage" class="img-fluid">' },
     { id: 'pageStoryBody162', content: '<p>네가 케이의 마음을 헤아려보며 고른 카드들이야!<br><br>케이는 지민이 무리에게 억지로 영상을 찍게 되어<br>수치스럽고 도망치고 싶었을 거야.<br>제대로 거부하지도 못했으니<br>무력하고, 나약해서 자신이 미웠을 거야.<br>영상을 올리지 말라고 했는데도<br>결국엔 놀림의 대상이 되었으니 억울하고<br>고통스러웠겠지.<br>빛나야, 네가 케이였다면 내일 학교에 오고 싶을까?<br>.<br>.<br>.<br><br></p>' },
-    { id: 'pageStoryBody163', content: '<img src="./img/img_161.png" alt="storyImage" class="img-fluid">' },
-    { id: 'pageStoryBody164', content: '<p>‘생각’ 조각을 획득했습니다!</p>' },
+    { id: 'pageStoryBody163', content: '<img src="./img/img_162.png" alt="storyImage" class="img-fluid">' },
+    { id: 'pageStoryBody164', content: '<h4>세 번째 꿈의 조각인<br>‘생각’ 조각을 획득했습니다!</h4>' },
 
 
     // 17. 행동으로 보여
@@ -137,13 +137,13 @@ const storyList = [
     { id: 'pageStoryBody174', content: '<img src="./img/img_172.png" alt="storyImage" class="img-fluid">' },
     { id: 'pageStoryBody175', content: '<p>“빛나야, 케이의 필통을 봐봐.<br>쪽지 하나가 놓여있는 것 같은데?”<br><br></p>' },
     { id: 'pageStoryBody176', content: '<img src="./img/img_173.png" alt="storyImage" class="img-fluid">' },
-    { id: 'pageStoryBody177', content: '<p>“편지에 적힌 암호를 보고, 사물함의 자물쇠를 풀어 보자!<br>그럼, 마지막 ‘행동’ 조각까지 획득할 수 있을 거야.”<br><br></p>' },
+    { id: 'pageStoryBody177', content: '<p>“편지에 적힌 암호를 보고, 사물함의 자물쇠를 풀어 보자!<br>그럼, 마지막 ‘행동’ 조각까지 획득할 수 있을 거야.”<br></p>' },
 
 
     // 18. 7가지 보석을 찾아보자_문답
     { id: 'pageStoryBody180', content: '<h3>7가지 보석을 찾아보자!</h3>' },
     { id: 'pageStoryBody181', content: '<p>빛나는 방어자 행동이 적힌 7가지 보석을 찾아보자!<br>영문자물쇠를 풀어서 보석함을 확인해봐!<br>*잘 모르겠다면 ‘힌트’를 적어보자.<br></p>' },
-    { id: 'pageStoryBody182', content: '<p>게시판 속 영어 포스터를 잘 보자.<br>곳곳에 이모티콘이 붙어있는 것 같은데…?<br>순서대로 조합해볼까?<br><br>‘돕다’라는 뜻을 가진 영어 단어야.<br><br></p>' },
+    { id: 'pageStoryBody182', content: '<p>게시판 속 영어 포스터를 잘 보자.<br><br>곳곳에 이모티콘이 붙어있는 것 같은데…?<br>순서대로 조합해볼까?<br><br>‘돕다’라는 뜻을 가진 영어 단어야.<br></p>' },
 
 
     // 19. 행동조각 획득
@@ -153,7 +153,7 @@ const storyList = [
     { id: 'pageStoryBody192', content: '<p>“빛나야, 네가 할 수 있는 7가지 행동들이야.<br>앞으로 학교폭력을 목격했는데,<br>어떻게 행동해야 할지 모르겠을 때는<br>이 7가지 행동을 골라서 지켜줄 수 있을 거야!<br><br></p><p style="color: red;">피해 친구의 이야기 들어보기, 어른에게 알리기,<br>티 내지 않고 도와주기, 따뜻한 말 건네기 등</p><p><br>케이와 같이 학교폭력 피해 친구를<br>돕는 방법에는 여러 가지가 있어. <br><br>할 수 있겠지?<br>앞으로 너에게 맞은 도움행동으로 힘이 되어주면 돼.<br><br>빛나야, 너는 지금까지<br></p><p style="color: red;">‘인지’, ‘다짐’, ‘생각’, ‘행동’</p><p> 조각을 모두 획득했고,<br>멋진 방어자로 성장했어.<br>네가 누군가를 도울 수 있는 사람이 되어서 진심으로 기뻐.”<br><br>고마워.<br>마음이 네가 아니었다면<br>나는 여전히 케이를 돕지 못했다는 죄책감에 <br>친구들과 떳떳하게 지낼 수 없었을 거야.<br><br>“이제 슬슬 꿈에서 깰 시간이야.<br>7개의 행동 요령을 네 안에 새겼으면 좋겠어.<br>학교 폭력은 또 언제, 어디서 발생할 지 모르니까!”<br><br>“응, 꼭 기억할게.<br>이제부터는 학교폭력 </p><p style="color: red;">방어자</p><p>로서,<br>용기 있게 행동하는 사람이 될 거야.<br>내 안에서 지켜봐 줘, 마음아!”<br><br>“약속할게. 나는 네 마음 속에 있는 존재니까.<br>다음에 또 볼 수 있었으면 좋겠다!”<br><br></p>' },
     { id: 'pageStoryBody193', content: '<p>‘띠리리링 띠리리링’<br>그렇게, 알람 소리가 시끄럽게 울려 꿈에서 깨어났다.<br><br></p>' },
     { id: 'pageStoryBody194', content: '<img src="./img/img_192.png" alt="storyImage" class="img-fluid">' },
-    { id: 'pageStoryBody195', content: '<p>“행동조각획득"</p>' },
+    { id: 'pageStoryBody195', content: '<h4>네 번째 꿈의 조각인<br>‘행동’ 조각을 획득했습니다!</h4>' },
 
 
     // 20.    

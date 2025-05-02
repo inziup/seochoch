@@ -147,7 +147,7 @@ const storyList = [
     // 18. 7가지 보석을 찾아보자_문답
     { id: 'pageStoryBody180', content: '<h3>7가지 보석을 찾아보자!</h3>' },
     { id: 'pageStoryBody181', content: '<p>빛나는 방어자 행동이 적힌 7가지 보석을 찾아보자!<br>영문자물쇠를 풀어서 보석함을 확인해봐!<br>*잘 모르겠다면 ‘힌트’를 적어보자.<br></p>' },
-    { id: 'pageStoryBody182', content: '<img src="./img/img_18.png" alt="storyImage" class="img-fluid">' },
+    { id: 'pageStoryBody182', content: '<img src="./img/img_181.png" alt="storyImage" class="img-fluid">' },
     { id: 'pageStoryBody183', content: '<p>게시판 속 영어 포스터를 잘 보자.<br><br>곳곳에 이모티콘이 붙어있는 것 같은데…?<br>순서대로 조합해볼까?<br><br>‘돕다’라는 뜻을 가진 영어 단어야.<br></p>' },
 
 

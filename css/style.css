@@ -77,7 +77,7 @@ audio {
     min-width: 300px;
 }
 .audio-wrapper::after {
-    content: "BGM을 켜고 플레이 해주세요";
+    content: "BGM을 켜고 플레이해요";
     position: absolute;
     top: 50%;
     left: 50%;

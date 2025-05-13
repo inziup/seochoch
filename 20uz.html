@@ -14,7 +14,19 @@
 <body oncontextmenu="return false">
     <div class="container">
         <section id="page20" class="mx-auto my-5 py-5 px-3">
-            <div class="storyAudio20 audio-wrapper"></div>
+            <div class="audio-player">
+                <button id="playPauseBtn">▶</button>
+                <input type="range" id="seekBar" value="0" min="0" step="0.1">
+                <div class="volume-wrapper">
+                    <button id="volumeBtn" aria-label="볼륨 조절">🔊</button>
+                    <div class="volume-slider" id="volumeSlider">
+                    <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="1">
+                    </div>
+                </div>
+            </div>
+            <p class="audio-player-message">BGM을 켜고 플레이 하세요</p>
+            <audio id="customAudio" src="./sound/audio20.mp3" preload="auto"></audio>
+
             <div class="pageStoryBody200"></div>
             <div class="pageStoryBody201"></div>
             <div class="pageStoryBody202 col-lg-10 col-md-10 col-sm-10 col- mx-auto my-3 px-1"></div>
@@ -28,6 +40,7 @@
         </section>
 
         <script src="./js/story.js" charset="UTF-8"></script>
+        <script src="./js/customAudio.js" charset="UTF-8"></script>
         <script src="./js/script.js" charset="UTF-8"></script>
 
         </script>

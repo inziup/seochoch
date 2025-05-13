@@ -8,17 +8,29 @@ window.onload = function () {
     });
 };
 
+
+window.addEventListener("load", function () {
+    setTimeout(function () {
+        window.scrollTo(0, 1);
+    }, 0);
+
+    document.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+    });
+});
+
+
 function playAudioOnPage(sectionId) {
     const audio = document.querySelector(`#${sectionId} audio`);
     if (audio) {
-      audio.currentTime = 0;
-      audio.play().catch(err => {
-        console.warn("자동재생 차단됨:", err);
-      });
+        audio.currentTime = 0;
+        audio.play().catch(err => {
+            console.warn("자동재생 차단됨:", err);
+        });
     } else {
-      console.log(`섹션 '${sectionId}'에 오디오가 없습니다.`);
+        console.log(`섹션 '${sectionId}'에 오디오가 없습니다.`);
     }
-  }
+}
 
 
 //획득페이지 구성 3, 10, 13, 16, 19
@@ -90,27 +102,28 @@ function closePopup(popupId, inputId) {
 const buttons = document.querySelectorAll('.toggle-btn');
 buttons.forEach(button => {
     button.addEventListener('click', () => {
-    button.classList.toggle('active');
+        button.classList.toggle('active');
     });
 });
 function goToNext12() {
     const activeButtons = Array.from(buttons)
-    .filter(btn => btn.classList.contains('active'))
-    .map(btn => btn.id);
+        .filter(btn => btn.classList.contains('active'))
+        .map(btn => btn.id);
     const correct = ['button-a', 'button-b', 'button-d'];
     const isCorrect = correct.every(id => activeButtons.includes(id)) && activeButtons.length === 3;
     if (isCorrect) {
         window.location.href = '13nv.html';
-        } else {
+    } else {
         document.getElementById('MissionPopup12').style.display = 'block';
-}}
+    }
+}
 
 
 function closePopup12() {
     document.getElementById('MissionPopup12').style.display = 'none';
     buttons.forEach(button => {
         button.classList.remove('active');
-        });
+    });
 }
 
 
@@ -131,7 +144,7 @@ function addArrow(direction) {
 }
 
 function goToNext15() {
-const recentSequence = userSequence.slice(-correctSequence.length);
+    const recentSequence = userSequence.slice(-correctSequence.length);
     if (JSON.stringify(recentSequence) === JSON.stringify(correctSequence)) {
         window.location.href = '16iw.html';
     } else {

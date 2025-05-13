@@ -1,12 +1,10 @@
 const storyList = [
-    { id: `storyAudio00`, content: `<audio src="./sound/audio00.mp3" autoplay controls controlsList="nodownload" oncontextmenu="return false" controlsList="nodownload" oncontextmenu="return false"></audio>` },
     { id: `pageStoryBody001`, content: `<p class="story-text-box"><b>[ 게임 미리보기 ]</b> <br> 어엿한 중학생이 된지 한달이 된 서빛나, 학교생활이 도무지 즐겁지 않은 것 같다.<br>학교폭력예방 교육을 듣고 그날 밤, 빛나의 마음이 쿵쿵 울렸다. 왜 이렇게 가슴이 무거운 걸까? 하지만 점점 무거워지는 눈꺼풀을 이길 수 없다. <br> 빛나는 결국 꿈나라로 떠나는데.. <br> 꿈 속에 나타난 귀여운 요정과 함께 마음을 들여다보고, 진정한 친구의 의미를 생각해보게 되는데... 빛나의 용감한 '방어자 되기 대작전'! 우리 모두 함께 떠나볼까?</p>` },
     { id: `pageStoryBody002`, content: `<p class="main-text-box">[게임안내]<br>1. 본 게임은 서초구청소년상담복지센터 상담버스 서포터즈 '마음지기' 2기가 함께 개발한 참여형 학교폭력예방 공감교육입니다.<br>2. 서초구 찾아가는 상담버스 '마음충전' 방문 시 참여 가능한 프로그램으로 사전 접수를 통해 서초구 내 초등학교에서도 진행 가능합니다.<br>3. 초등학생 전학년(1~6학년)을 대상으로 하나 축제 부스 참여의 경우, 부모 동반 진행 가능합니다.<br>4. 게임 제한 시간은 20분입니다. 시간이 지나면 게임은 즉시 종료됩니다.<br>5. 원활한 게임 진행을 위해 현장에서 '시간예약제'로 운영합니다.<br>※1회당 20분 소요, 최대 6명 참여 가능 / 현장접수<br>6. 본 프로그램은 한국청소년상담복지개발원의 '나는 학교폭력 방어자입니다' 자료를 참고하여 제작하였습니다.<br> · 기획 및 편집: 박수아, 김서현, 김유진, 김정우<br><br><dvi>` },
     { id: `pageStoryBody002`, content: `<div class="main-text-box" font-color="black" >[게임 유의사항]<br>1. 본 게임은 서초구청소년상담복지센터 상담버스 서포터즈 '마음지기' 2기가 함께 개발한 참여형 학교폭력예방 공감교육입니다.<br>2. 서초구 찾아가는 상담버스 '마음충전' 방문 시 참여 가능한 프로그램으로 사전 접수를 통해 서초구 내 초등학교에서도 진행 가능합니다.<br>3. 초등학생 전학년(1~6학년)을 대상으로 하나 축제 부스 참여의 경우, 부모 동반 진행 가능합니다.<br>4. 게임 제한 시간은 20분입니다. 시간이 지나면 게임은 즉시 종료됩니다.<br>5. 원활한 게임 진행을 위해 현장에서 '시간예약제'로 운영합니다.<br>※1회당 20분 소요, 최대 6명 참여 가능 / 현장접수<br>6. 본 프로그램은 한국청소년상담복지개발원의 '나는 학교폭력 방어자입니다' 자료를 참고하여 제작하였습니다.<br> · 기획 및 편집: 박수아, 김서현, 김유진, 김정우<br><br><br> 본 게임은 '서초구청소년상담복지센터'와 상담버스 서포터즈 '마음지기'가 함께 개발한 게임이며, 학교폭력 예방 교육 목적으로 제작되었습니다. 또한, 본 게임에 등장하는 등장인물 및 스토리는 모두 픽션이며, 특정 인물이나 사건, 단체 및 조직, 배경 등은 실제와 어떠한 관련도 없음을 알려드립니다.<dvi>` },
 
 
     // 01.이제는 어엿한 중학생, 서빛나
-    { id: `storyAudio01`, content: `<audio src="./sound/audio01.mp3" autoplay controls controlsList="nodownload" oncontextmenu="return false"></audio>` },
     { id: `pageStoryBody010`, content: `<h3>이제는 어엿한 중학생, 서빛나</h3><h6>중학교 입학과 동시에 학교폭력예방 교육을 받게 되는데</h6><hr /><br>` },
     { id: `pageStoryBody011`, content: `<p>"빛나야!"내 이름은 '서빛나'다.<br><br>"응, 왜 불러?"<br>중학교에 입학한 지 한 달이 지났다.<br><br>"같이 음악실 가자!"<br>친구들과 어울리느라,<br>새 학기에 적응하느라<br>하루가 어떻게 지나가는지도 모르겠다.<br><br>초등학교 때는 친구들과 쉽게 친해졌는데,<br>중학교는 왜 이렇게 다가가기 어려운 걸까?<br>오늘도 수업시간이 너무 길게 느껴졌다.</p>` },
     { id: `pageStoryBody012`, content: `<img src="./img/img_011.png" alt="storyImage" class="img-fluid">` },
@@ -16,7 +14,6 @@ const storyList = [
     { id: `pageStoryBody016`, content: `<img src="./img/img_013.png" alt="storyImage" class="img-fluid">` },
 
     // 02.꿈의 조각을 찾아서
-    { id: `storyAudio02`, content: `<audio src="./sound/audio02.mp3" autoplay controls controlsList="nodownload" oncontextmenu="return false"></audio>` },
     { id: `pageStoryBody020`, content: `<h3>꿈의 조각을 찾아서</h3><h6>방어자가 되기 위한 마음여행, 함께 해보지 않을래?</h6><hr /><br>` },
     { id: `pageStoryBody021`, content: `<p>"뭔가 찜찜한 기분이 드는 거지?"<br>갑자기 어디에선가 낯선 목소리가 들려왔다.<br><br>"여기야, 여기!<br>좀 더 위를 봐!"<br></p>` },
     { id: `pageStoryBody022`, content: `<img src="./img/img_021.png" alt="storyImage" class="img-fluid">` },
@@ -32,15 +29,13 @@ const storyList = [
 
 
     // 04. 과거로 돌아가다(노트찾기)
-    { id: `storyAudio04`, content: `<audio src="./sound/audio04.mp3" autoplay controls controlsList="nodownload" oncontextmenu="return false"></audio>` },
     { id: `pageStoryBody040`, content: `<h3>과거로 돌아가다</h3><h6>마음이를 따라 꿈속으로 들어온 나.<br>1년 전 우리 반 교실로 돌아갔다.</h6><hr /><br>` },
     { id: `pageStoryBody041`, content: `<p>윽, 머리가 빙글빙글 돈다.</p>` },
     { id: `pageStoryBody042`, content: `<img src="./img/img_041.png" alt="storyImage" class="img-fluid">` },
     { id: `pageStoryBody043`, content: `<p>눈을 번쩍 떠보니<br>낯익은 교실의 책상과 사물함,<br>함께 깔깔거리던 친구들 얼굴이 보였다.<br>분명 방금까지 마음이랑 있었는데...<br>진짜로 과거로 돌아온 거구나.<br><br>그때, 누군가 책상을 주먹으로 내려치는<br>쾅! 하는 소리가 났다.<br>나는 깜짝 놀라 소리 나는 쪽으로 고개를 돌렸다.<br><br>"야, 좋은 말로 할 때 내놓으랬지.<br>우리 오늘 코노 가기로 했다니까?"<br><br>"얘 거진가봐. 꼴랑 3천원이 없어?"<br><br>친구들이 한 명을 둘러싸고<br>돈을 내놓으라며 윽박지르고 있었다.<br><br></p>` },
     { id: `pageStoryBody044`, content: `<img src="./img/img_042.png" alt="storyImage" class="img-fluid">` },
-    { id: `pageStoryBody045`, content: `<p>뭐지?<br>어디서 많이 본 얼굴들인데...<br><br>수연이와 지민이.<br>우리 반에서 친구들을 괴롭히기로 유명한 아이들.<br>그리고 고개를 푹 숙이고 있는 케이.<br>1년 전, 내가 그냥 지켜만 봤던 바로 그 상황이 눈앞에서 펼쳐지고 있다.<br><br>"나 지금 진짜 돈 없어...<br>너네 지난번에도 빌려 갔잖아."<br><br>
-"아, 진짜 갚겠다고 했잖아.<br>친구끼리 이 정도도 못 도와주냐?"<br><br>큰일이다. 케이를 도와야 할 것 같은데,<br>어떻게 해야할지 모르겠어.<br>.<br>.<br>.<br>빛나야, 저기 친구 표정이 어둡네!<br>무슨 고민이 있는 것 같았어.<br>우리가 도와주어야 할 것 같아.<br>그러려면 먼저 조각을 찾아야 하는 거 기억하지?<br><br>응, 당연하지.<br>조각을 찾게 도와줘.<br><br><b>"이렇게 상대의 돈이나 금품을 요구하면서
-   빼앗으려고 하는 행위는 학교폭력의 어떠한 유형일까?"</b></p>` },
+    { id: `pageStoryBody045`, content: `<p>뭐지?<br>어디서 많이 본 얼굴들인데...<br><br>수연이와 지민이.<br>우리 반에서 친구들을 괴롭히기로 유명한 아이들.<br>그리고 고개를 푹 숙이고 있는 케이.<br>1년 전, 내가 그냥 지켜만 봤던 바로 그 상황이 눈앞에서 펼쳐지고 있다.<br><br>"나 지금 진짜 돈 없어...<br>너네 지난번에도 빌려 갔잖아."<br><br>"아, 진짜 갚겠다고 했잖아.<br>친구끼리 이 정도도 못 도와주냐?"<br><br>큰일이다. 케이를 도와야 할 것 같은데,<br>어떻게 해야할지 모르겠어.<br>.<br>.<br>.<br>빛나야, 저기 친구 표정이 어둡네!<br>무슨 고민이 있는 것 같았어.<br>우리가 도와주어야 할 것 같아.<br>그러려면 먼저 조각을 찾아야 하는 거 기억하지?<br><br>응, 당연하지.<br>조각을 찾게 도와줘.<br><br><b>"이렇게 상대의 돈이나 금품을 요구하면서
+    빼앗으려고 하는 행위는 학교폭력의 어떠한 유형일까?"</b></p>` },
     { id: `pageStoryBody046`, content: `<img src="./img/img_043.png" alt="storyImage" class="img-fluid">` },
 
 
@@ -51,11 +46,9 @@ const storyList = [
 
 
     // 06. 과거로 돌아가다2(테이블찾기)
-        { id: `storyAudio06`, content: `<audio src="./sound/audio04.mp3" autoplay controls controlsList="nodownload" oncontextmenu="return false"></audio>` },
     { id: `pageStoryBody061`, content: `<img src="./img/img_061.png" alt="storyImage" class="img-fluid">` },
     { id: `pageStoryBody062`, content: `<p>지민이는 케이의 어깨를 팔로 감싸고,<br>씨익 웃으며 교실 뒤쪽을 슬쩍 쳐다봤다.<br><br>"우리끼리 재밌는 거 한번 해볼까?<br>너 저기 뒤로 가서 서봐.<br>
-챌린지 영상 찍기 딱 좋은 자리였어."<br><br>케이는 하기 싫다는 눈빛으로<br>무릎 위의 손을 꽉 쥐었다.<br>그런데 수연이와 지민이가<br>눈을 크게 뜨고 케이를 노려봤다.<br>케이는 천천히 일어나<br>힘없이 교실 뒤편으로 걸어갔다.<br><br>"인터넷에는 절대 올리면 안 돼...<br>너희만 봐야 돼..."<br><br>
-"안 올릴게, 안 올려!<br>이제 됐지? 얼른 춰봐."<br><br>음악이 나오자마자<br>케이는 몸을 조금씩 움직이기 시작했다.<br>그 모습을 보면서 나와 친구들은<br>마음이 무거웠던 것 같았다.<br><br><br><b>이러한 케이의 상황처럼,<br>상대가 원치 않는 행위 또는 행동을 강제로 하게 하거나<br>자발적으로 하게끔 유도하는 행위는 무엇일까?<br></b></p>` },
+    챌린지 영상 찍기 딱 좋은 자리였어."<br><br>케이는 하기 싫다는 눈빛으로<br>무릎 위의 손을 꽉 쥐었다.<br>그런데 수연이와 지민이가<br>눈을 크게 뜨고 케이를 노려봤다.<br>케이는 천천히 일어나<br>힘없이 교실 뒤편으로 걸어갔다.<br><br>"인터넷에는 절대 올리면 안 돼...<br>너희만 봐야 돼..."<br><br>"안 올릴게, 안 올려!<br>이제 됐지? 얼른 춰봐."<br><br>음악이 나오자마자<br>케이는 몸을 조금씩 움직이기 시작했다.<br>그 모습을 보면서 나와 친구들은<br>마음이 무거웠던 것 같았다.<br><br><br><b>이러한 케이의 상황처럼,<br>상대가 원치 않는 행위 또는 행동을 강제로 하게 하거나<br>자발적으로 하게끔 유도하는 행위는 무엇일까?<br></b></p>` },
     { id: `pageStoryBody063`, content: `<img src="./img/img_062.png" alt="storyImage" class="img-fluid">` },
 
 
@@ -66,7 +59,6 @@ const storyList = [
 
 
     // 08. 집에돌아온 후
-    { id: `storyAudio08`, content: `<audio src="./sound/audio08.mp3" autoplay controls controlsList="nodownload" oncontextmenu="return false"></audio>` },
     { id: `pageStoryBody080`, content: `<h3>집에 돌아온 후</h3><h6>하교 후 마음이 더욱 심란해진 나,<br>단체채팅방을 확인하니 케이의 영상이 올라와 있었고 웃음거리가 되고 있었다.</h6><hr />` },
     { id: `pageStoryBody081`, content: `<p>과거로 돌아온 첫날,<br>하교 후 가방을 바닥에 내려놓았다.<br>아무래도 아까 학교에서 그 상황은<br>심상치 않아 보였어.<br>.<br>.<br>.<br><br>휴대폰 너머로 카톡 알림음이 울리기 시작했다.<br></p>` },
     { id: `pageStoryBody082`, content: `<img src="./img/img_081.png" alt="storyImage" class="img-fluid">` },
@@ -81,14 +73,12 @@ const storyList = [
 
 
     // 10. 인지 획득_POPUP    
-    { id: `storyAudio10`, content: `<audio src="./sound/audio10.mp3" autoplay controls controlsList="nodownload" oncontextmenu="return false"></audio>` },
     { id: `pageStoryBody101`, content: `<p>정말 축하해!<br><br>문제를 풀면서 알게 되었겠지만,<br>학교폭력이 정말 여러 모습으로 나타난다는 걸<br>문제를 풀면서 알게 됐지?<br><br><b>신체폭력, 언어폭력, 금품갈취, 강요, 따돌림, 성폭력, 사이버폭력</b><br>크게 7가지 유형으로 나누는데<br>한 가지만 일어날 때도 있지만,<br>여러 유형이 같이 나타나는 경우가 많았지.<br><br>학교폭력이 다양한 형태로 나타난다는 것,<br>그리고 여러 폭력이 한꺼번에 일어난다는 걸 기억한다면,<br>분명 학교폭력 유형을 이해하는데 도움이 되겠지?<br><br></p>` },
     { id: `pageStoryBody102`, content: `<img src="./img/img_101.png" alt="storyImage" class="img-fluid">` },
     { id: `pageStoryBody103`, content: `<h4>첫 번째 꿈의 조각인<br>'인지' 조각을 획득했습니다!</h4>` },
 
 
     // 11. 그럴만한 이유
-    { id: `storyAudio11`, content: `<audio src="./sound/audio11.mp3" autoplay controls controlsList="nodownload" oncontextmenu="return false"></audio>` },
     { id: `pageStoryBody110`, content: `<h3>그럴만한 이유가 있었을 거야.</h3><h6>나는 피해친구를 돕지 못한 나의 마음을 살펴보자.</h6><hr />` },
     { id: `pageStoryBody111`, content: `<p>저녁이 되어 식탁 앞에 앉았다.<br>숟가락으로 밥알을 하나씩 느릿느릿 씹는 동안<br>채팅방 너머의 케이의 표정이 어떨지 떠올랐다.<br>가슴이 답답해 아무래도 체한 것 같았다.<br><br>양치를 끝내고 방으로 들어와 침대에 풀썩 누웠다.<br>내가 제일 좋아하는 김치볶음밥에 와플까지 먹었는데도<br>전혀 맛있게 느껴지지 않았다.<br><br></p>` },
     { id: `pageStoryBody112`, content: `<img src="./img/img_111.png" alt="storyImage" class="img-fluid">` },
@@ -104,7 +94,6 @@ const storyList = [
 
 
     // 13. 다짐조각획득
-    { id: `storyAudio13`, content: `<audio src="./sound/audio13.mp3" autoplay controls controlsList="nodownload" oncontextmenu="return false"></audio>` },
     { id: `pageStoryBody131`, content: `<img src="./img/img_131.png" alt="storyImage" class="img-fluid">` },
     { id: `pageStoryBody132`, content: `<p>네 진짜 마음을 보여줘서 고마워!<br>케이를 바로 돕지 못한 너의 마음 이해해.<br>너도 괴롭힘 당할까봐 두려웠거나,<br>어떻게 대처해야 할지 몰랐거나,<br>네 힘만으론 이 문제를 해결할 수 없다고 느꼈을 거야.<br><br>케이를 도울 수 없었다고 자책하지는 마.<br>폭력상황은 정말 무서웠을테니까...<br><br>빛나야!<br>널 위해 특별한 규칙을 준비했어!<br>같이 읽어보면서 마음 속에 담아볼까?<br><br></p>` },
     { id: `pageStoryBody133`, content: `<img src="./img/img_132.png" alt="storyImage" class="img-fluid">` },
@@ -112,7 +101,6 @@ const storyList = [
     { id: `pageStoryBody135`, content: `<h4>두 번째 꿈의 조각인<br>'다짐' 조각을 획득했습니다!</h4>` },
 
     // 14. 친구의 마음은 어땠을까?    
-    { id: `storyAudio14`, content: `<audio src="./sound/audio14.mp3" autoplay controls controlsList="nodownload" oncontextmenu="return false"></audio>` },
     { id: `pageStoryBody140`, content: `<h3>친구의 마음은 어땠을까?</h3><h6>피해친구, 케이의 마음을 공감해보자.</h6><hr />` },
     { id: `pageStoryBody141`, content: `<img src="./img/img_141.png" alt="storyImage" class="img-fluid">` },
     { id: `pageStoryBody142`, content: `<p>5계명을 다 읽자<br>온몸에 따뜻한 힘이 솟아나는 걸 느꼈다.<br>그건 아마 케이처럼 힘들어하는 친구들을<br>꼭 도와주고 싶은 마음이 만든 거였을 거야.<br><br>케이가 학교를 졸업하고<br>앞으로의 긴 인생에서<br>어떤 상처를 안고 살아가게 될지 마음이 아팠다.<br><br></p>` },
@@ -127,7 +115,6 @@ const storyList = [
 
 
     // 16. 생각조각 획득(팝업)
-    { id: `storyAudio16`, content: `<audio src="./sound/audio16.mp3" autoplay controls controlsList="nodownload" oncontextmenu="return false"></audio>` },
     { id: `pageStoryBody161`, content: `<img src="./img/img_161.png" alt="storyImage" class="img-fluid">` },
     { id: `pageStoryBody162`, content: `<p>네가 케이의 마음을 헤아려보며 고른 카드들이야!<br><br>케이는 지민이 무리에게 억지로 영상을 찍게 되어<br>수치스럽고 도망치고 싶었을 거야.<br>제대로 거부하지도 못했으니<br>무력하고 나약해서 자신이 미웠을 거야.<br>영상을 올리지 말라고 했는데도<br>결국엔 놀림의 대상이 되었으니 억울하고 고통스러웠겠지.<br>빛나야, 네가 만약 케이였다면 내일 학교에 가고 싶을까?<br>.<br>.<br>.<br><br></p>` },
     { id: `pageStoryBody163`, content: `<img src="./img/img_162.png" alt="storyImage" class="img-fluid">` },
@@ -139,7 +126,6 @@ const storyList = [
 
 
     // 17. 행동으로 보여
-    { id: `storyAudio17`, content: `<audio src="./sound/audio17.mp3" autoplay controls controlsList="nodownload" oncontextmenu="return false"></audio>` },
     { id: `pageStoryBody170`, content: `<h3>행동으로 보여줄 거야.</h3><h6>방어자 역할을 실천으로 옮길 용기가 생긴 빛나, 변화가 있을까?</h6><hr />` },
     { id: `pageStoryBody171`, content: `<p>"좋아! 빛나야,<br>그럼 이제 케이를 지키러 갈까?<br>우리 말보다 실천으로 보여주자!"<br><br>응, 케이한테 웃음 돌려주고 싶어.<br><br>눈을 감았다 뜨니<br>나는 교실 맨 뒤 사물함 앞에 서 있었다.<br><br>그리고 케이는 여전히<br>지민이 무리에게 둘러 싸여 있었다.<br><br></p>` },
     { id: `pageStoryBody172`, content: `<img src="./img/img_171.png" alt="storyImage" class="img-fluid">` },
@@ -158,17 +144,13 @@ const storyList = [
 
 
     // 19. 행동조각 획득
-    { id: `storyAudio191`, content: `<audio src="./sound/audio19.mp3" autoplay controls controlsList="nodownload" oncontextmenu="return false"></audio>` },
     { id: `pageStoryBody191`, content: `<img src="./img/img_191.png" alt="storyImage" class="img-fluid">` },
-    { id: `pageStoryBody192`, content: `<p>"빛나야, 네가 할 수 있는 7가지 행동들이야.<br>앞으로 학교폭력을 목격했는데,<br>어떻게 행동해야 할지 모르겠을 때는<br>이 7가지 행동을 골라서 지켜줄 수 있을 거야!<br><br><b>피해 친구의 이야기 들어보기, 어른에게 알리기,<br>티내지 않고 도와주기, 따뜻한 말 건네기 등</b><br>케이와 같이 학교폭력 피해 친구를 돕는 방법에는 여러 가지가 있어.<br><br>할 수 있겠지?<br>앞으론 너에게 맞는 도움행동으로 힘이 되어주면 돼.<br><br>빛나야, 너는 지금까지<br><b>'인지', '다짐', '생각', '행동'</b> 조각을 모두 획득했고,<br>멋진 방어자로 성장했어.<br>네가 누군가를 도울 수 있는 사람이 되어서 진심으로 기뻐."<br><br>
-"고마워, 마음이 네가 아니었다면<br>나는 여전히 케이를 돕지 못했다는 죄책감에<br>친구들과 떳떳하게 지낼 수 없었을 거야.<br><br>"이제 곧 잠에서 깰 시간이야.<br>7가지 도움 방법을 마음속에 담아뒀으면 해.<br>학교폭력은 언제 어디서든 일어날 수 있으니까!"<br>"응, 꼭 기억할게.<br>이제부터는 학교폭력 방어자로서,<br>용기 있게 행동하는 사람이 될 거야.<br>내 마음속에서 함께해 줘, 마음아!"<br><br>"약속할게. 난 항상 네 마음속에 있을 거니까.<br>다음에 또 만날 수 있기를 바랄게!"<br><br>♬띠리리링 띠리리링♬<br><br>그렇게, 알람 소리가 시끄럽게 울려 꿈에서 깨어났다.<br><br></p>` },
-    { id: `pageStoryBody193`, content: `<p>'띠리리링 띠리리링'<br>그렇게, 알람 소리가 시끄럽게 울려 꿈에서 깨어났다.<br><br></p>` },
+    { id: `pageStoryBody192`, content: `<p>"빛나야, 네가 할 수 있는 7가지 행동들이야.<br>앞으로 학교폭력을 목격했는데,<br>어떻게 행동해야 할지 모르겠을 때는<br>이 7가지 행동을 골라서 지켜줄 수 있을 거야!<br><br><b>피해 친구의 이야기 들어보기, 어른에게 알리기,<br>티내지 않고 도와주기, 따뜻한 말 건네기 등</b><br>케이와 같이 학교폭력 피해 친구를 돕는 방법에는 여러 가지가 있어.<br><br>할 수 있겠지?<br>앞으론 너에게 맞는 도움행동으로 힘이 되어주면 돼.<br><br>빛나야, 너는 지금까지<br><b>'인지', '다짐', '생각', '행동'</b> 조각을 모두 획득했고,<br>멋진 방어자로 성장했어.<br>네가 누군가를 도울 수 있는 사람이 되어서 진심으로 기뻐."<br><br>"고마워, 마음이 네가 아니었다면<br>나는 여전히 케이를 돕지 못했다는 죄책감에<br>친구들과 떳떳하게 지낼 수 없었을 거야.<br><br>"이제 곧 잠에서 깰 시간이야.<br>7가지 도움 방법을 마음속에 담아뒀으면 해.<br>학교폭력은 언제 어디서든 일어날 수 있으니까!"<br>"응, 꼭 기억할게.<br>이제부터는 학교폭력 방어자로서,<br>용기 있게 행동하는 사람이 될 거야.<br>내 마음속에서 함께해 줘, 마음아!"<br><br>"약속할게. 난 항상 네 마음속에 있을 거니까.<br>다음에 또 만날 수 있기를 바랄게!"<br><br>♬띠리리링 띠리리링♬<br><br>그렇게, 알람 소리가 시끄럽게 울려 꿈에서 깨어났다.<br><br></p>` },
     { id: `pageStoryBody194`, content: `<img src="./img/img_192.png" alt="storyImage" class="img-fluid">` },
     { id: `pageStoryBody195`, content: `<h4>네 번째 꿈의 조각인<br>'행동' 조각을 획득했습니다!</h4>` },
 
 
     // 20.   
-    { id: `storyAudio20`, content: `<audio src="./sound/audio20.mp3" autoplay controls controlsList="nodownload" oncontextmenu="return false"></audio>` },
     { id: `pageStoryBody200`, content: `<h3>오늘부터 '빛나'는 황금열쇠의 주인공</h3><h6>단잠에서 깨어난 빛나, 손에는 황금 열쇠가 쥐어져있다!</h6><hr />` },    
     { id: `pageStoryBody201`, content: `<p>번쩍, 눈을 떠보니 천장이 보인다.<br><br>"어? 전부 꿈이었던 거야?"<br><br>너무도 실감나는 꿈에 잠시 얼떨떨한 '빛나'는<br>몸을 일으켜 벽에 등을 기대고 앉는다.<br><br>그런데 손바닥에 뭔가 만져진다.<br>"황금열쇠?"<br><br></p>` },
     { id: `pageStoryBody202`, content: `<img src="./img/img_201.png" alt="storyImage" class="img-fluid">` },

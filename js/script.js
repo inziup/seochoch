@@ -20,29 +20,16 @@ window.addEventListener("load", function () {
 });
 
 
-function playAudioOnPage(sectionId) {
-    const audio = document.querySelector(`#${sectionId} audio`);
-    if (audio) {
-        audio.currentTime = 0;
-        audio.play().catch(err => {
-            console.warn("자동재생 차단됨:", err);
-        });
-    } else {
-        console.log(`섹션 '${sectionId}'에 오디오가 없습니다.`);
-    }
-}
-
-
 //획득페이지 구성 3, 10, 13, 16, 19
 const popup = document.querySelector('.gIpopup');
 const overlay = document.querySelector('.overlay');
 
 function opengIPopup() {
-    const audio = new Audio('sound/get_it_on.mp3');
-    console.log(audio);
-    if (audio) {
-        audio.addEventListener('canplay', function () {
-            audio.play();
+    const audioh = new Audio('sound/get_it_on.mp3');
+    console.log(audioh);
+    if (audioh) {
+        audioh.addEventListener('canplay', function () {
+            audioh.play();
         });
     } else {
         console.log('오디오 파일을 로드할 수 없습니다.');

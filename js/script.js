@@ -6,6 +6,12 @@ window.onload = function () {
             el.innerHTML = story.content;
         }
     });
+    linkList.forEach((linkList) => {
+    const el = document.querySelector(`.${linkList.id}`);
+    if (el) {
+        el.innerHTML = linkList.content;
+        }
+    });
 };
 
 

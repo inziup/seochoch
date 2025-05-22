@@ -74,7 +74,7 @@ const storyList = [
     // 09. 세번째 학교폭력 (문제)    
     { id: `pageStoryBody090`, content: `<h3>세 번째 학교폭력 유형을 맞혀보자.</h3>` },
     { id: `pageStoryBody091`, content: `<p>인터넷, 온라인 상에서의 형식을 통해 상대에게<br>불쾌감, 폭력, 강요 등을 행사하는 것은 무엇일까요?<br></p>` },
-    { id: `pageStoryBody092`, content: `<p>벽면에 붙어있는 한글 포스터에 수상한 이모티콘이 보인다.<br>이모티콘이 붙은 자음과 모음을 합쳐볼까?<br></p>` },
+    { id: `pageStoryBody092`, content: `<p>벽면에 붙어있는 한글 포스터에 수상한 이모티콘이 보인다.<br>이모티콘이 붙은 자음과 모음을 합쳐볼까?<br>ㅅㅇㅂㅍㄹ<<br></p>` },
 
 
     // 10. 인지 획득_POPUP    
